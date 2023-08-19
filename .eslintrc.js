@@ -12,5 +12,15 @@ module.exports = {
     'simple-import-sort/exports': 'error',
     'autofix/no-debugger': 'error',
     'vue/no-v-for-template-key': 'off',
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'always-multiline',
+      },
+    ],
   },
 }
